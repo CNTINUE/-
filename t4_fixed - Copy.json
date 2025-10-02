@@ -1,0 +1,172 @@
+{
+  "logo": "./logo.gif",
+  "sites": [
+    {
+      "key": "py_DianYingTanTang",
+      "name": "🫐电影天堂(T4)",
+      "type": 4,
+      "api": "https://py.doube.eu.org/spider?site=DianYingTanTang",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "py_OleVod",
+      "name": "🍉欧乐影院(T4)",
+      "type": 4,
+      "api": "https://py.doube.eu.org/spider?site=OleVod",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "py_Dm84",
+      "name": "🍋动漫巴士(T4)",
+      "type": 4,
+      "api": "https://py.doube.eu.org/spider?site=Dm84",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "py_BadNews",
+      "name": "🔞BadNews(T4)",
+      "type": 4,
+      "api": "https://py.doube.eu.org/spider?site=BadNews",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.5
+      }
+    },
+    {
+      "key": "py_Miss",
+      "name": "🔞MissAV(T4)",
+      "type": 4,
+      "api": "https://py.doube.eu.org/spider?site=Miss",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "py_AiDou",
+      "name": "🔞AiDou(T4)",
+      "type": 4,
+      "api": "https://py.doube.eu.org/spider?site=AiDou",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.5
+      }
+    },
+    {
+      "key": "py_MrJav",
+      "name": "🔞MRJav(T4)",
+      "type": 4,
+      "api": "https://py.doube.eu.org/spider?site=MrJav",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.5
+      }
+    },
+    {
+      "key": "py_madou",
+      "name": "🔞麻豆(T4)",
+      "type": 4,
+      "api": "https://py.doube.eu.org/spider?site=MaDou",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.5
+      }
+    },
+    {
+      "key": "🈲🔞幸资源站",
+      "name": "🈲🔞幸资源站",
+      "type": 1,
+      "api": "https://xzybb1.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1
+    },
+    {
+      "key": "🈲🔞悟空资源站",
+      "name": "🈲🔞悟空资源站",
+      "type": 1,
+      "api": "https://wukongzyz.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1
+    },
+    {
+      "key": "老师",
+      "name": "🦃奥斯卡",
+      "type": 1,
+      "api": "https://aosikazy.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "header": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+      }
+    },
+    {
+      "key": "小鸭看看",
+      "name": "小鸭看看",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/CNTINUE/-/refs/heads/main/csp_xiaoyakankan.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "🈲🔞大地X资源站",
+      "name": "🈲🔞大地X资源站",
+      "type": 0,
+      "api": "https://dadiapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1
+    },
+ {
+      "key": "py_stripchat",
+      "name": "stripchat",
+      "type": 1,
+      "api": "https://raw.githubusercontent.com/CNTINUE/-/refs/heads/main/py_stripchat.py",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1
+    },
+{
+
+      "key"："🈲🔞eporner",
+      "name":"🈲🔞eporner",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/EchterAlsFake/EPorner_API/refs/heads/master/eporner_api/eporner_api.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    }   
+  ]
+}
