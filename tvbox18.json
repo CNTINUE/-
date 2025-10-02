@@ -21,7 +21,7 @@
   ],
   "sites": [
   
-//type,0表达xml，1表达json，3表达jar内置json
+//type,0表达xml，1表达json，2表达爬虫源，3表达jar内置json，4表达服务器爬虫
    //___
  
 {"key":"csp_LocalFile","name": "💾本地视频","type": 3,"api": "csp_LocalFile","searchable": 0,"quickSearch": 0,"filterable": 0,"style": {"type": "rect","ratio": 1.6}},
@@ -73,15 +73,17 @@
       {"key":"csp_XYQHiker_missav","name": "🔞MissAV(XYQHiker)","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": "https://gh-proxy.com/raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/missav.json","style": {"type": "rect","ratio": 1.6}},
 {"key":"csp_XYQHiker_njavtv.com","name": "🔞Njavtv.com(XYQHiker)","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": "https://gh-proxy.com/raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/njavtv.json","style": {"type": "rect","ratio": 1.6}},   
       {"key":"csp_XYQHiker_njav.com","name": "🔞Njav.com(XYQHiker)","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": "https://gh-proxy.com/raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/njav.com.json","style": {"type": "rect","ratio": 1.6}},
-{"key":"py_DianYingTanTang","name": "🫐电影天堂(T4)","type": 3,"api": "https://py.doube.eu.org/spider?site=DianYingTanTang","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": "https://py.doube.eu.org/spider?site=DianYingTanTang","style": {"type": "rect","ratio": 1.6}},
+{"key":"py_DianYingTanTang","name": "🫐电影天堂(T4)","type": 4,"api": "https://py.doube.eu.org/spider?site=DianYingTanTang","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 1,"style": {"type": "rect","ratio": 1.6}},
 {"key":"🈲🔞幸资源站","name": "🈲🔞幸资源站","type": 1,"api": "https://xzybb1.com/api.php/provide/vod/?ac=list","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": "https://xzybb1.com/api.php/provide/vod/?ac=list","style": {"type": "rect","ratio": 1.6}},
 {"key":"🈲🔞悟空资源站","name": "🈲🔞悟空资源站","type": 0,"api": "https://wukongzyz.com/api.php/provide/vod/?ac=list","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": "https://wukongzyz.com/api.php/provide/vod/?ac=list","style": {"type": "rect","ratio": 1.6}},
 {"key":"🈲🔞四虎影视","name": "🈲🔞四虎影视","type": 3,"api": "https://raw.githubusercontent.com/CNTINUE/-/refs/heads/main/%E5%9B%9B%E8%99%8E%E8%A7%86%E9%A2%91%E5%B9%BF%E5%91%8A%E7%89%88.py","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://raw.githubusercontent.com/CNTINUE/-/refs/heads/main/%E5%9B%9B%E8%99%8E%E8%A7%86%E9%A2%91%E5%B9%BF%E5%91%8A%E7%89%88.py","style": {"type": "rect","ratio": 1.6}},
 {"key":"🈲🔞大地X资源站","name": "🈲🔞大地X资源站","type": 0,"api": "https://dadiapi.com/api.php/provide/vod/","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": "https://dadiapi.com/api.php/provide/vod/","style": {"type": "rect","ratio": 1.6}},
 {"key":"小鸭看看","name": "小鸭看看","type": 3,"api": "https://raw.githubusercontent.com/CNTINUE/-/refs/heads/main/%E5%B0%8F%E9%B8%AD%E5%AD%90%E7%9C%8B%E7%9C%8B.py","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": "https://raw.githubusercontent.com/CNTINUE/-/refs/heads/main/%E5%B0%8F%E9%B8%AD%E5%AD%90%E7%9C%8B%E7%9C%8B.py","style": {"type": "rect","ratio": 1.6}},
-{"key":"老师","name": "🦃奥斯卡","type": 0,"api": "https://aosikazy.com/api.php/provide/vod/at/xml","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": "https://aosikazy.com/api.php/provide/vod/at/xml","style": {"type": "rect","ratio": 1.6}},
-{"key":"py_MrJav","name": "🔞MRJav(T4)","type": 1,"api": "https://py.doube.eu.org/spider?site=MrJav","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": "https://py.doube.eu.org/spider?site=MrJav","style": {"type": "rect","ratio": 1.6}},
-{"key":"肉视频","name": "肉视频","type": 3,"api": "https://raw.githubusercontent.com/CNTINUE/-/refs/heads/main/rou.py","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": "https://raw.githubusercontent.com/CNTINUE/-/refs/heads/main/rou.py","style": {"type": "rect","ratio": 1.6}},
+{"key":"老师","name": "🦃奥斯卡","type": 1,"api": "https://aosikazy.com/api.php/provide/vod/?ac=list","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://aosikazy.com/api.php/provide/vod/?ac=list","style": {"type": "rect","ratio": 1.6}},"header": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+      }
+{"key":"py_MrJav","name": "🔞MRJav(T4)","type": 4,"api": "https://py.doube.eu.org/spider?site=MrJav","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": "https://py.doube.eu.org/spider?site=MrJav","style": {"type": "rect","ratio": 1.6}},
+{"key":"肉视频","name": "肉视频","type": 4,"api": "https://raw.githubusercontent.com/CNTINUE/-/refs/heads/main/rou.py","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": "https://raw.githubusercontent.com/CNTINUE/-/refs/heads/main/rou.py","style": {"type": "rect","ratio": 1.6}},
 
 
 {"key":"csp_XYQHiker_soporn","name": "🔞Soporn(XYQHiker)","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": "https://gh-proxy.com/raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/soporn.json","style": {"type": "rect","ratio": 1.6}},
