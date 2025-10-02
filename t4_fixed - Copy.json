@@ -147,7 +147,7 @@
       "filterable": 0,
       "changeable": 1
     },
- {
+    {
       "key": "py_stripchat",
       "name": "stripchat",
       "type": 1,
@@ -156,10 +156,9 @@
       "filterable": 0,
       "changeable": 1
     },
-{
-
-      "key"："🈲🔞eporner",
-      "name":"🈲🔞eporner",
+    {
+      "key": "🈲🔞eporner",
+      "name": "🈲🔞eporner",
       "type": 3,
       "api": "https://raw.githubusercontent.com/EchterAlsFake/EPorner_API/refs/heads/master/eporner_api/eporner_api.py",
       "searchable": 1,
@@ -167,6 +166,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 2
-    }   
+    }
   ]
 }
